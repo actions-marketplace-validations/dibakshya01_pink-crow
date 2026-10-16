@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" font-family="'Space Grotesk','Segoe UI',system-ui,sans-serif">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6Z" fill="#6C7382"/></marker>
+    <marker id="ahp" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6Z" fill="#FF3D8B"/></marker>
+    <style>
+      .t{fill:#ECEAF0;font-weight:600;font-size:13px}
+      .s{fill:#9AA0AE;font-family:'JetBrains Mono',monospace;font-size:9.5px}
+      .l{fill:#9AA0AE;font-family:'JetBrains Mono',monospace;font-size:10px}
+      .node{fill:#1B1F2A;stroke:#ffffff;stroke-opacity:.14}
+      .acc{fill:#2a1826;stroke:#FF3D8B}
+      .side{fill:#0E1118;stroke:#ffffff;stroke-opacity:.10}
+    </style>
+  </defs>
+  <rect width="1000" height="230" rx="16" fill="#0B0D12"/>
+  <rect class="node" x="18" y="46" width="150" height="54" rx="10"/><text class="t" x="30" y="70">Chat input</text><text class="s" x="30" y="86">user · RAG · tool</text>
+  <rect class="node" x="18" y="130" width="150" height="54" rx="10"/><text class="t" x="30" y="154">Model output</text><text class="s" x="30" y="170">egress checks</text>
+  <rect class="acc" x="220" y="84" width="158" height="62" rx="10"/><text class="t" x="234" y="110">Detectors</text><text class="s" x="234" y="126">injection·consumption</text><text class="s" x="234" y="138">·egress</text>
+  <rect class="node" x="428" y="84" width="146" height="62" rx="10"/><text class="t" x="442" y="110">Findings</text><text class="s" x="442" y="126">OWASP 2026</text><text class="s" x="442" y="138">+2025 IDs</text>
+  <rect class="node" x="624" y="84" width="158" height="62" rx="10"/><text class="t" x="638" y="110">Session score</text><text class="s" x="638" y="126">decay+EWMA</text><text class="s" x="638" y="138">+window</text>
+  <rect class="acc" x="832" y="84" width="150" height="62" rx="10"/><text class="t" x="846" y="110">Policy</text><text class="s" x="846" y="126">allow/flag/redact</text><text class="s" x="846" y="138">/block/cooldown</text>
+  <rect class="side" x="624" y="18" width="158" height="30" rx="8"/><text class="l" x="638" y="37">⏱ injectable clock</text>
+  <rect class="side" x="624" y="182" width="158" height="30" rx="8"/><text class="l" x="638" y="201">▤ audit log · replay</text>
+  <path d="M168 73 L214 108" fill="none" stroke="#6C7382" stroke-width="1.6" marker-end="url(#ah)"/>
+  <path d="M168 157 L214 124" fill="none" stroke="#6C7382" stroke-width="1.6" marker-end="url(#ah)"/>
+  <path d="M378 115 L424 115" fill="none" stroke="#6C7382" stroke-width="1.6" marker-end="url(#ah)"/>
+  <path d="M574 115 L620 115" fill="none" stroke="#6C7382" stroke-width="1.6" marker-end="url(#ah)"/>
+  <path d="M782 115 L828 115" fill="none" stroke="#FF3D8B" stroke-width="1.8" marker-end="url(#ahp)"/>
+  <path d="M703 48 L703 82" fill="none" stroke="#6C7382" stroke-width="1.4" stroke-dasharray="3 3" marker-end="url(#ah)"/>
+  <path d="M703 182 L703 148" fill="none" stroke="#6C7382" stroke-width="1.4" stroke-dasharray="3 3" marker-end="url(#ah)"/>
+</svg>

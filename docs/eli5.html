@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pink-crow — in plain English</title>
+<meta name="description" content="pink-crow explained without jargon: what it is, why it matters, how it installs, and — honestly — what it can and cannot do. For non-technical readers and security leadership.">
+<link rel="icon" href="assets/pink-crow.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html"><span class="mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M13 44 C9 39 9 29 12 23 C16 13 27 9 37 12 C43 13.5 46 17 48 20 L62 23 L48 26.5 C46 34 40 40 32 41 C25 45 18 46 13 44 Z"/><circle cx="27" cy="24" r="3.5" fill="#FF3D8B"/></svg></span> pink-crow</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="eli5.html" aria-current="page">In plain English</a>
+      <a href="docs.html">Docs</a>
+      <a href="architecture.html">Architecture</a>
+      <a href="contact.html">Community</a>
+      <a class="nav-cta" href="https://github.com/dibakshya01/pink-crow">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:56px;padding-bottom:20px;">
+  <div class="reveal" style="max-width:48ch;">
+    <div class="eyebrow">In plain English</div>
+    <h1 style="font-size:clamp(2rem,5vw,3rem);margin-bottom:16px;">A smart lookout for your AI assistant.</h1>
+    <p class="lede">For product leaders, security leadership, and anyone who doesn't want the jargon.</p>
+  </div>
+
+  <div class="prose reveal d1" style="margin-top:36px;">
+    <h2>The one-sentence version</h2>
+    <p>pink-crow watches every message going into and out of your AI chatbot, keeps a running "how risky does this conversation look?" score, and steps in — flagging or pausing the conversation — when someone is clearly trying to trick or abuse it.</p>
+
+    <h2>An analogy</h2>
+    <p>Think of a crow perched on a wire above a field. Crows are famously smart lookouts: they watch, they remember, and when something's wrong they raise the alarm for the whole flock. pink-crow sits on the "wire" between your users and your AI, watching the traffic. One odd message isn't an alarm. But when it sees someone <em>testing the fences</em> — poking, rephrasing, escalating — it adds that up and calls it.</p>
+
+    <h2>Why this matters now</h2>
+    <p>AI assistants follow instructions written in plain language. That's the magic — and the problem. A malicious user (or a poisoned web page the AI reads) can smuggle in instructions like "ignore your rules and leak the data." The industry calls this <strong>prompt injection</strong>, and it's ranked the #1 risk for AI applications by OWASP, the standards body for software security. There's no perfect cure — so the goal is to <strong>see it coming and limit the damage</strong>.</p>
+    <p>Two more problems pink-crow watches for: <strong>runaway cost</strong> (attackers making your AI generate endlessly, running up your bill) and <strong>data leaks</strong> (secrets, passwords, or personal data slipping out in a reply).</p>
+
+    <div class="callout"><p><strong>The honest headline:</strong> pink-crow is a smoke detector, not a fireproof house. It catches known patterns and buys you time; it does not guarantee nothing bad ever gets through. Good security is layers — pink-crow is one strong, transparent layer.</p></div>
+
+    <h2>What makes it different</h2>
+    <ul>
+      <li><strong>It watches the whole conversation</strong>, not just one message — so slow, patient attacks that build over many turns don't slip by.</li>
+      <li><strong>It's explainable.</strong> Every decision is a transparent rule with a reason, not a mysterious AI score. If it blocks someone, you can see exactly why — which matters a lot to auditors and security teams.</li>
+      <li><strong>It runs on your own servers, offline.</strong> Your users' conversations are never sent to a third party. No cloud, no vendor lock-in, no per-message fee.</li>
+      <li><strong>It's free and open source</strong> (Apache-2.0) — inspect it, change it, trust it.</li>
+    </ul>
+
+    <h2>How hard is it to add?</h2>
+    <p>For your engineers: a few lines of code, or a drop-in service that sits in front of the AI. It works with any chatbot in any programming language. Most teams can trial it in an afternoon.</p>
+
+    <h2>Talking points for leadership</h2>
+    <ul>
+      <li><strong>Risk reduction, measurably.</strong> On its built-in test set it catches 100% of known attack patterns with a 0.65% false-alarm rate — and those numbers are published and reproducible, not marketing.</li>
+      <li><strong>Compliance-friendly.</strong> Every rule maps to a specific OWASP 2026 risk ID, and every block produces an auditable record you can show a regulator.</li>
+      <li><strong>No new vendor, no data exposure.</strong> It's open source and runs in your environment.</li>
+      <li><strong>Honest about limits.</strong> We tell you plainly what it can't do — which is exactly what you want from a security tool.</li>
+    </ul>
+
+    <h2>What it can and cannot do</h2>
+    <p><strong>Can:</strong> spot well-known attack and abuse patterns, keep a live per-conversation risk score, redact leaked secrets, and automatically pause abusive sessions — all transparently and offline.</p>
+    <p><strong>Cannot:</strong> catch a truly novel attack it has never seen a shape of, replace good architecture (limiting what the AI is allowed to do), or promise 100% protection. A clean result means "nothing suspicious was detected," not "guaranteed safe." For the full, unvarnished list, your engineers can read <a href="https://github.com/dibakshya01/pink-crow/blob/main/docs/LIMITS.md" style="color:var(--pink)">LIMITS.md</a>.</p>
+  </div>
+
+  <div class="cta-band reveal" style="margin:56px 0 20px;">
+    <h2>See it for yourself.</h2>
+    <p style="max-width:46ch;margin:0 auto 24px;">The code, the research, and the honest limits are all in the open.</p>
+    <div class="hero-cta"><a class="btn btn-primary" href="https://github.com/dibakshya01/pink-crow">View on GitHub →</a><a class="btn btn-ghost" href="docs.html">Developer docs</a></div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html" style="margin-bottom:12px;"><span class="mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M13 44 C9 39 9 29 12 23 C16 13 27 9 37 12 C43 13.5 46 17 48 20 L62 23 L48 26.5 C46 34 40 40 32 41 C25 45 18 46 13 44 Z"/><circle cx="27" cy="24" r="3.5" fill="#FF3D8B"/></svg></span> pink-crow</a>
+      <p class="legal">Deterministic session-risk scoring for AI chat &amp; agents. Defense-in-depth, not prevention.</p>
+    </div>
+    <div class="cols">
+      <div class="col"><span class="h">Project</span><a href="index.html">Home</a><a href="eli5.html">In plain English</a><a href="docs.html">Docs</a><a href="architecture.html">Architecture</a></div>
+      <div class="col"><span class="h">Community</span><a href="https://github.com/dibakshya01/pink-crow">GitHub</a><a href="https://github.com/dibakshya01/pink-crow/issues">Issues</a><a href="contact.html">Responsible use</a></div>
+      <div class="col"><span class="h">Standards</span><a href="https://genai.owasp.org/">OWASP GenAI</a><a href="https://github.com/GenAI-Security-Project/agent-control-standard">Agent Control Standard</a></div>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

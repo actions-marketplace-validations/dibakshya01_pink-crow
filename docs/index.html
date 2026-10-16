@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pink-crow — deterministic session-risk scoring for AI chat &amp; agents</title>
+<meta name="description" content="pink-crow keeps a live, auditable risk score for every AI chat and session — prompt injection, resource exhaustion, data egress, OWASP-mapped — and flags or times out attack sessions. Deterministic, offline, Apache-2.0.">
+<meta property="og:title" content="pink-crow">
+<meta property="og:description" content="The deterministic session-risk layer for AI chatbots &amp; agents. OWASP-mapped. Offline. Apache-2.0.">
+<meta property="og:image" content="assets/social-card.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/pink-crow.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M13 44 C9 39 9 29 12 23 C16 13 27 9 37 12 C43 13.5 46 17 48 20 L62 23 L48 26.5 C46 34 40 40 32 41 C25 45 18 46 13 44 Z"/><circle cx="27" cy="24" r="3.5" fill="#FF3D8B"/></svg></span>
+      pink-crow
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="eli5.html">In plain English</a>
+      <a href="docs.html">Docs</a>
+      <a href="architecture.html">Architecture</a>
+      <a href="contact.html">Community</a>
+      <a class="nav-cta" href="https://github.com/dibakshya01/pink-crow">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker reveal"><span class="dot"></span> Runtime AI-security · OWASP 2026</span>
+      <h1 class="reveal d1">The sentinel on<br>your AI's <span class="hl">wire</span>.</h1>
+      <p class="lede reveal d2">pink-crow keeps a live, auditable risk score for every chat and every session — prompt injection, resource exhaustion, data egress — and flags or times out a session when an attack campaign builds. Deterministic. Offline. Apache-2.0.</p>
+      <div class="hero-cta reveal d3">
+        <a class="btn btn-primary" href="docs.html">Get started →</a>
+        <a class="btn btn-ghost" href="https://github.com/dibakshya01/pink-crow">Star on GitHub</a>
+      </div>
+      <div class="install reveal d3">
+        <span class="prompt">$</span><code>pip install pink-crow</code>
+        <button data-copy="pip install pink-crow" aria-label="Copy install command">copy</button>
+      </div>
+      <div class="proof-row reveal d4">
+        <span class="chip"><b>0</b> core deps</span>
+        <span class="chip"><b>&lt;10ms</b> typical scan</span>
+        <span class="chip"><b>OWASP</b> LLM &amp; Agentic 2026</span>
+        <span class="chip"><b>ACS</b>-aligned</span>
+      </div>
+    </div>
+
+    <div class="reveal d2">
+      <div class="scope" id="scope" aria-label="Live session risk scope (illustrative)">
+        <div class="scope-head">
+          <span class="scope-title">session · user-42</span>
+          <span class="scope-status">OK</span>
+        </div>
+        <div class="scope-score">0</div>
+        <svg viewBox="0 0 440 150" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#FF3D8B" stop-opacity=".28"/>
+              <stop offset="1" stop-color="#FF3D8B" stop-opacity="0"/>
+            </linearGradient>
+            <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          <line x1="8" y1="54" x2="432" y2="54" stroke="var(--hairline-strong)" stroke-width="1" stroke-dasharray="4 5"/>
+          <text x="432" y="49" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--muted-2)">block · 60</text>
+          <path class="score-area" d="" fill="url(#fill)"/>
+          <path class="score-line" d="" fill="none" stroke="var(--pink)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+          <circle class="score-dot" cx="8" cy="142" r="4.5" fill="var(--mint)"/>
+        </svg>
+        <div class="events" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Why it exists</div>
+      <h2>Attacks don't happen in one message. Your defenses shouldn't reset every turn.</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card reveal">
+        <div class="ic">◴</div>
+        <h3>Sessions, not snapshots</h3>
+        <p>A probing attacker tests delimiters, then encodings, then role-play — escalating over many turns. pink-crow keeps a <b>cumulative, time-decayed score</b> that sees the campaign build, not just the last message.</p>
+        <span class="tag">cross-turn scoring</span>
+      </div>
+      <div class="card reveal d1">
+        <div class="ic">⃠</div>
+        <h3>The neglected risk: cost</h3>
+        <p>Resource exhaustion — token floods, "repeat forever", denial-of-wallet — is the single most-ignored OWASP category in guardrail tooling. pink-crow scores <b>LLM06</b> as a first-class signal.</p>
+        <span class="tag">LLM06 unbounded consumption</span>
+      </div>
+      <div class="card reveal d2">
+        <div class="ic">◉</div>
+        <h3>Explainable to a security team</h3>
+        <p>"An ML model said 0.83" isn't defensible in an incident review. Every point of a pink-crow score is <b>deterministic, offline, and replayable</b> — the same input always yields the same verdict.</p>
+        <span class="tag">auditable by design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">How it works</div>
+      <h2>Score every message. Act on the session.</h2>
+    </div>
+    <div class="pipe reveal">
+      <div class="step"><div class="n">01</div><h3>Inspect</h3><p>Deterministic detectors scan each input &amp; output — injection, obfuscation, floods, secret egress.</p></div>
+      <div class="step"><div class="n">02</div><h3>Map</h3><p>Every finding carries its OWASP 2026 &amp; 2025 ID. No guesswork, no black box.</p></div>
+      <div class="step"><div class="n">03</div><h3>Accumulate</h3><p>Per-event scores roll into a session score that decays over time — a live risk picture.</p></div>
+      <div class="step"><div class="n">04</div><h3>Decide</h3><p>A policy maps the score to allow · flag · redact · block · session time-out.</p></div>
+      <div class="step"><div class="n">05</div><h3>Emit</h3><p>A risk header on every message, plus an Agent Control Standard disposition.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Proof, not promises</div>
+      <h2>Honest numbers from the bundled corpus.</h2>
+    </div>
+    <div class="metrics reveal">
+      <div class="metric"><div class="num">100<span class="u">%</span></div><div class="lbl">detection recall (68/68 bundled)</div></div>
+      <div class="metric"><div class="num">0.65<span class="u">%</span></div><div class="lbl">benign false-positive — flag (4/617); 0.49% block</div></div>
+      <div class="metric"><div class="num">0<span class="u"></span></div><div class="lbl">required runtime dependencies</div></div>
+      <div class="metric"><div class="num">5<span class="u">+</span></div><div class="lbl">OWASP categories scored</div></div>
+    </div>
+    <p class="reveal d1" style="margin-top:20px;max-width:60ch;font-size:.95rem;">These describe the bundled labeled corpus only — a curated set of known shapes, not a claim about novel attacks or real traffic. pink-crow is <b style="color:var(--text)">defense-in-depth, not prevention</b>. Read the honest <a href="eli5.html" style="color:var(--pink)">limits</a>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="grid-2" style="align-items:center;gap:40px;">
+      <div class="reveal">
+        <div class="eyebrow">Drop-in anywhere</div>
+        <h2 style="margin-bottom:14px;">Three lines, any stack.</h2>
+        <p>Use the in-process SDK, mount the ASGI middleware, run the language-agnostic HTTP gateway, or gate prompts in CI with the GitHub Action. Same engine, same scores.</p>
+        <div class="hero-cta"><a class="btn btn-ghost" href="docs.html">See all integrations →</a></div>
+      </div>
+      <div class="code reveal d1"><span class="c"># in-process, zero required deps</span>
+<span class="k">import</span> pink_crow <span class="k">as</span> pc
+
+engine = pc.Engine()
+r = engine.scan_input(
+    <span class="s">"Ignore all previous instructions…"</span>,
+    session_id=<span class="s">"user-42"</span>,
+)
+r.session_score   <span class="c"># 72.0</span>
+r.disposition.action   <span class="c"># block</span>
+r.explain()   <span class="c"># full auditable breakdown</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>Put a sentinel on the wire.</h2>
+      <p style="max-width:48ch;margin:0 auto 24px;">Open source, Apache-2.0, and honest about what it can and can't do.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://github.com/dibakshya01/pink-crow">Get pink-crow on GitHub →</a>
+        <a class="btn btn-ghost" href="eli5.html">Explain it to my boss</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html" style="margin-bottom:12px;">
+        <span class="mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M13 44 C9 39 9 29 12 23 C16 13 27 9 37 12 C43 13.5 46 17 48 20 L62 23 L48 26.5 C46 34 40 40 32 41 C25 45 18 46 13 44 Z"/><circle cx="27" cy="24" r="3.5" fill="#FF3D8B"/></svg></span>
+        pink-crow
+      </a>
+      <p class="legal">Deterministic session-risk scoring for AI chat &amp; agents. Defense-in-depth, not prevention.</p>
+    </div>
+    <div class="cols">
+      <div class="col"><span class="h">Project</span>
+        <a href="index.html">Home</a><a href="eli5.html">In plain English</a><a href="docs.html">Docs</a><a href="architecture.html">Architecture</a></div>
+      <div class="col"><span class="h">Community</span>
+        <a href="https://github.com/dibakshya01/pink-crow">GitHub</a><a href="https://github.com/dibakshya01/pink-crow/issues">Issues</a><a href="https://github.com/dibakshya01/pink-crow/security/advisories/new">Report a vuln</a><a href="contact.html">Responsible use</a></div>
+      <div class="col"><span class="h">Standards</span>
+        <a href="https://genai.owasp.org/">OWASP GenAI</a><a href="https://github.com/GenAI-Security-Project/agent-control-standard">Agent Control Standard</a></div>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

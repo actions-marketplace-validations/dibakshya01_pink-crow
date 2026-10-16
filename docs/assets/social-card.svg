@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="'Space Grotesk','Segoe UI',system-ui,sans-serif">
+  <defs>
+    <radialGradient id="g1" cx="82%" cy="12%" r="55%"><stop offset="0" stop-color="#FF3D8B" stop-opacity=".30"/><stop offset="1" stop-color="#FF3D8B" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="10%" cy="22%" r="55%"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".26"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF3D8B" stop-opacity=".35"/><stop offset="1" stop-color="#FF3D8B" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="#0B0D12"/>
+  <rect width="1280" height="640" fill="url(#g1)"/>
+  <rect width="1280" height="640" fill="url(#g2)"/>
+  <rect x="0.5" y="0.5" width="1279" height="639" fill="none" stroke="#FF3D8B" stroke-opacity=".18"/>
+
+  <!-- brand lockup -->
+  <g transform="translate(96,92)">
+    <g transform="scale(1.35)">
+      <path fill="#ECEAF0" d="M13 44 C9 39 9 29 12 23 C16 13 27 9 37 12 C43 13.5 46 17 48 20 L62 23 L48 26.5 C46 34 40 40 32 41 C25 45 18 46 13 44 Z"/>
+      <circle cx="27" cy="24" r="3.5" fill="#FF3D8B"/>
+    </g>
+    <text x="104" y="48" font-size="46" font-weight="700" fill="#ECEAF0" letter-spacing="-1.5">pink-crow</text>
+  </g>
+
+  <!-- headline -->
+  <text x="96" y="268" font-size="76" font-weight="700" fill="#ECEAF0" letter-spacing="-2.5">The sentinel on your</text>
+  <text x="96" y="352" font-size="76" font-weight="700" fill="#ECEAF0" letter-spacing="-2.5">AI's <tspan fill="#FF3D8B">wire</tspan>.</text>
+
+  <!-- tagline -->
+  <text x="98" y="412" font-size="27" fill="#9AA0AE" font-family="'Inter',system-ui,sans-serif">Deterministic session-risk scoring for AI chat &amp; agents.</text>
+  <text x="98" y="448" font-size="27" fill="#9AA0AE" font-family="'Inter',system-ui,sans-serif">Injection · resource exhaustion · data egress — OWASP-mapped.</text>
+
+  <!-- chips -->
+  <g font-family="'JetBrains Mono',monospace" font-size="19" fill="#ECEAF0">
+    <g transform="translate(96,500)"><rect width="196" height="46" rx="23" fill="#14171F" stroke="#FF3D8B" stroke-opacity=".5"/><text x="26" y="30">OWASP 2026</text></g>
+    <g transform="translate(308,500)"><rect width="196" height="46" rx="23" fill="#14171F" stroke="#ffffff" stroke-opacity=".12"/><text x="26" y="30">deterministic</text></g>
+    <g transform="translate(520,500)"><rect width="168" height="46" rx="23" fill="#14171F" stroke="#ffffff" stroke-opacity=".12"/><text x="26" y="30">Apache-2.0</text></g>
+    <g transform="translate(704,500)"><rect width="150" height="46" rx="23" fill="#14171F" stroke="#ffffff" stroke-opacity=".12"/><text x="24" y="30">0 deps</text></g>
+  </g>
+
+  <!-- risk scope motif (right) -->
+  <g transform="translate(830,150)">
+    <rect width="354" height="300" rx="20" fill="#14171F" stroke="#ffffff" stroke-opacity=".10"/>
+    <text x="26" y="42" font-family="'JetBrains Mono',monospace" font-size="15" fill="#6C7382" letter-spacing="1">SESSION · USER-42</text>
+    <g transform="translate(250,24)"><rect width="80" height="30" rx="15" fill="none" stroke="#FF3D8B" stroke-opacity=".6"/><text x="16" y="20" font-family="'JetBrains Mono',monospace" font-size="14" fill="#FF3D8B">BLOCKED</text></g>
+    <text x="26" y="104" font-family="'JetBrains Mono',monospace" font-size="56" font-weight="700" fill="#FF3D8B">73</text>
+    <!-- threshold -->
+    <line x1="26" y1="150" x2="328" y2="150" stroke="#ffffff" stroke-opacity=".18" stroke-dasharray="4 5"/>
+    <text x="328" y="144" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#6C7382">block · 60</text>
+    <!-- area + line -->
+    <path d="M26 250 L26 236 L70 230 L110 214 L150 200 L190 176 L230 128 L270 142 L270 250 Z" fill="url(#spark)"/>
+    <path d="M26 236 L70 230 L110 214 L150 200 L190 176 L230 128 L270 142" fill="none" stroke="#FF3D8B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="230" cy="128" r="6" fill="#FF3D8B"/>
+    <text x="26" y="288" font-family="'JetBrains Mono',monospace" font-size="13.5" fill="#9AA0AE">› override: "ignore all previous…"</text>
+  </g>
+
+  <!-- install -->
+  <g transform="translate(896,474)" font-family="'JetBrains Mono',monospace">
+    <text x="0" y="22" font-size="19" fill="#6C7382">$</text>
+    <text x="22" y="22" font-size="19" fill="#ECEAF0">pip install pink-crow</text>
+  </g>
+</svg>

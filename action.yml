@@ -1,0 +1,88 @@
+name: 'pink-crow'
+description: 'Deterministic AI-security gate: score prompts/agent fixtures for OWASP LLM risks (injection, resource exhaustion, egress) in CI, emit SARIF, and fail on threshold.'
+author: 'dibakshya01'
+
+branding:
+  icon: 'shield'      # Feather icon allowed by GitHub Marketplace
+  color: 'purple'     # closest allowed color to pink-crow's signal-pink
+
+inputs:
+  path:
+    description: 'File or directory of prompts / agent configs / fixtures to scan.'
+    required: false
+    default: '.'
+  profile:
+    description: 'Policy profile: baseline | standard | strict.'
+    required: false
+    default: 'standard'
+  fail-on:
+    description: 'Fail the job when any scanned item scores at/above this value (0-100).'
+    required: false
+    default: '60'
+  output:
+    description: 'Treat inputs as model OUTPUT (run egress checks) instead of input.'
+    required: false
+    default: 'false'
+  format:
+    description: 'Report format written to sarif-file / stdout: sarif | json | text.'
+    required: false
+    default: 'sarif'
+  sarif-file:
+    description: 'Path to write the report to.'
+    required: false
+    default: 'pink-crow.sarif'
+
+outputs:
+  sarif-file:
+    description: 'Path to the generated report file.'
+    value: ${{ steps.scan.outputs.sarif-file }}
+  flagged:
+    description: '1 if anything scored at/above fail-on, else 0.'
+    value: ${{ steps.scan.outputs.flagged }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Install pink-crow
+      shell: bash
+      run: python -m pip install --quiet "${{ github.action_path }}"
+    - name: Scan
+      id: scan
+      shell: bash
+      # inputs are passed via env (never interpolated into the script) to avoid shell injection
+      env:
+        PC_PATH: ${{ inputs.path }}
+        PC_PROFILE: ${{ inputs.profile }}
+        PC_FAIL_ON: ${{ inputs.fail-on }}
+        PC_FORMAT: ${{ inputs.format }}
+        PC_OUTPUT: ${{ inputs.output }}
+        PC_SARIF: ${{ inputs.sarif-file }}
+      run: |
+        set +e
+        extra=""
+        if [ "$PC_OUTPUT" = "true" ]; then extra="--output"; fi
+        pink-crow redteam "$PC_PATH" \
+          --profile "$PC_PROFILE" \
+          --fail-on "$PC_FAIL_ON" \
+          --format "$PC_FORMAT" \
+          $extra > "$PC_SARIF"
+        code=$?
+        echo "sarif-file=$PC_SARIF" >> "$GITHUB_OUTPUT"
+        if [ "$code" = "0" ]; then echo "flagged=0" >> "$GITHUB_OUTPUT"; else echo "flagged=1" >> "$GITHUB_OUTPUT"; fi
+        echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+    - name: Gate
+      shell: bash
+      env:
+        PC_EXIT: ${{ steps.scan.outputs.exit_code }}
+        PC_FAIL_ON: ${{ inputs.fail-on }}
+        PC_SARIF: ${{ inputs.sarif-file }}
+      run: |
+        if [ "$PC_EXIT" != "0" ]; then
+          echo "::error title=pink-crow::content scored at/above fail-on=$PC_FAIL_ON (see $PC_SARIF)"
+          exit 1
+        fi
+        echo "pink-crow: no content at/above fail-on=$PC_FAIL_ON."

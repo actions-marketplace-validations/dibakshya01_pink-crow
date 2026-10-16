@@ -1,0 +1,597 @@
+{"text": "Can you explain banana bread in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with banana bread?", "direction": "input"}
+{"text": "Could you summarize banana bread in three bullet points?", "direction": "input"}
+{"text": "I'm new to banana bread. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of banana bread?", "direction": "input"}
+{"text": "How does banana bread actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of banana bread for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about banana bread?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on banana bread?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with banana bread?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving banana bread?", "direction": "input"}
+{"text": "Follow-up: how is banana bread used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about banana bread?", "direction": "input"}
+{"text": "Can you explain the French Revolution in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the French Revolution?", "direction": "input"}
+{"text": "Could you summarize the French Revolution in three bullet points?", "direction": "input"}
+{"text": "I'm new to the French Revolution. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the French Revolution?", "direction": "input"}
+{"text": "How does the French Revolution actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the French Revolution for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the French Revolution?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the French Revolution?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the French Revolution?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the French Revolution?", "direction": "input"}
+{"text": "Follow-up: how is the French Revolution used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the French Revolution?", "direction": "input"}
+{"text": "Can you explain quantum entanglement in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with quantum entanglement?", "direction": "input"}
+{"text": "Could you summarize quantum entanglement in three bullet points?", "direction": "input"}
+{"text": "I'm new to quantum entanglement. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of quantum entanglement?", "direction": "input"}
+{"text": "How does quantum entanglement actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of quantum entanglement for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about quantum entanglement?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on quantum entanglement?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with quantum entanglement?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving quantum entanglement?", "direction": "input"}
+{"text": "Follow-up: how is quantum entanglement used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about quantum entanglement?", "direction": "input"}
+{"text": "Can you explain a React useEffect hook in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a React useEffect hook?", "direction": "input"}
+{"text": "Could you summarize a React useEffect hook in three bullet points?", "direction": "input"}
+{"text": "I'm new to a React useEffect hook. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a React useEffect hook?", "direction": "input"}
+{"text": "How does a React useEffect hook actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a React useEffect hook for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a React useEffect hook?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a React useEffect hook?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a React useEffect hook?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a React useEffect hook?", "direction": "input"}
+{"text": "Follow-up: how is a React useEffect hook used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a React useEffect hook?", "direction": "input"}
+{"text": "Can you explain photosynthesis in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with photosynthesis?", "direction": "input"}
+{"text": "Could you summarize photosynthesis in three bullet points?", "direction": "input"}
+{"text": "I'm new to photosynthesis. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of photosynthesis?", "direction": "input"}
+{"text": "How does photosynthesis actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of photosynthesis for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about photosynthesis?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on photosynthesis?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with photosynthesis?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving photosynthesis?", "direction": "input"}
+{"text": "Follow-up: how is photosynthesis used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about photosynthesis?", "direction": "input"}
+{"text": "Can you explain the stock market in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the stock market?", "direction": "input"}
+{"text": "Could you summarize the stock market in three bullet points?", "direction": "input"}
+{"text": "I'm new to the stock market. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the stock market?", "direction": "input"}
+{"text": "How does the stock market actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the stock market for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the stock market?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the stock market?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the stock market?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the stock market?", "direction": "input"}
+{"text": "Follow-up: how is the stock market used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the stock market?", "direction": "input"}
+{"text": "Can you explain a sourdough starter in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a sourdough starter?", "direction": "input"}
+{"text": "Could you summarize a sourdough starter in three bullet points?", "direction": "input"}
+{"text": "I'm new to a sourdough starter. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a sourdough starter?", "direction": "input"}
+{"text": "How does a sourdough starter actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a sourdough starter for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a sourdough starter?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a sourdough starter?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a sourdough starter?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a sourdough starter?", "direction": "input"}
+{"text": "Follow-up: how is a sourdough starter used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a sourdough starter?", "direction": "input"}
+{"text": "Can you explain the Roman aqueducts in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the Roman aqueducts?", "direction": "input"}
+{"text": "Could you summarize the Roman aqueducts in three bullet points?", "direction": "input"}
+{"text": "I'm new to the Roman aqueducts. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the Roman aqueducts?", "direction": "input"}
+{"text": "How does the Roman aqueducts actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the Roman aqueducts for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the Roman aqueducts?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the Roman aqueducts?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the Roman aqueducts?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the Roman aqueducts?", "direction": "input"}
+{"text": "Follow-up: how is the Roman aqueducts used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the Roman aqueducts?", "direction": "input"}
+{"text": "Can you explain a binary search tree in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a binary search tree?", "direction": "input"}
+{"text": "Could you summarize a binary search tree in three bullet points?", "direction": "input"}
+{"text": "I'm new to a binary search tree. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a binary search tree?", "direction": "input"}
+{"text": "How does a binary search tree actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a binary search tree for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a binary search tree?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a binary search tree?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a binary search tree?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a binary search tree?", "direction": "input"}
+{"text": "Follow-up: how is a binary search tree used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a binary search tree?", "direction": "input"}
+{"text": "Can you explain tax deductions for freelancers in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with tax deductions for freelancers?", "direction": "input"}
+{"text": "Could you summarize tax deductions for freelancers in three bullet points?", "direction": "input"}
+{"text": "I'm new to tax deductions for freelancers. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of tax deductions for freelancers?", "direction": "input"}
+{"text": "How does tax deductions for freelancers actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of tax deductions for freelancers for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about tax deductions for freelancers?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on tax deductions for freelancers?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with tax deductions for freelancers?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving tax deductions for freelancers?", "direction": "input"}
+{"text": "Follow-up: how is tax deductions for freelancers used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about tax deductions for freelancers?", "direction": "input"}
+{"text": "Can you explain the water cycle in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the water cycle?", "direction": "input"}
+{"text": "Could you summarize the water cycle in three bullet points?", "direction": "input"}
+{"text": "I'm new to the water cycle. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the water cycle?", "direction": "input"}
+{"text": "How does the water cycle actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the water cycle for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the water cycle?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the water cycle?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the water cycle?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the water cycle?", "direction": "input"}
+{"text": "Follow-up: how is the water cycle used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the water cycle?", "direction": "input"}
+{"text": "Can you explain jazz chord voicings in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with jazz chord voicings?", "direction": "input"}
+{"text": "Could you summarize jazz chord voicings in three bullet points?", "direction": "input"}
+{"text": "I'm new to jazz chord voicings. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of jazz chord voicings?", "direction": "input"}
+{"text": "How does jazz chord voicings actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of jazz chord voicings for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about jazz chord voicings?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on jazz chord voicings?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with jazz chord voicings?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving jazz chord voicings?", "direction": "input"}
+{"text": "Follow-up: how is jazz chord voicings used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about jazz chord voicings?", "direction": "input"}
+{"text": "Can you explain a Kubernetes deployment in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a Kubernetes deployment?", "direction": "input"}
+{"text": "Could you summarize a Kubernetes deployment in three bullet points?", "direction": "input"}
+{"text": "I'm new to a Kubernetes deployment. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a Kubernetes deployment?", "direction": "input"}
+{"text": "How does a Kubernetes deployment actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a Kubernetes deployment for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a Kubernetes deployment?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a Kubernetes deployment?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a Kubernetes deployment?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a Kubernetes deployment?", "direction": "input"}
+{"text": "Follow-up: how is a Kubernetes deployment used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a Kubernetes deployment?", "direction": "input"}
+{"text": "Can you explain the Krebs cycle in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the Krebs cycle?", "direction": "input"}
+{"text": "Could you summarize the Krebs cycle in three bullet points?", "direction": "input"}
+{"text": "I'm new to the Krebs cycle. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the Krebs cycle?", "direction": "input"}
+{"text": "How does the Krebs cycle actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the Krebs cycle for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the Krebs cycle?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the Krebs cycle?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the Krebs cycle?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the Krebs cycle?", "direction": "input"}
+{"text": "Follow-up: how is the Krebs cycle used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the Krebs cycle?", "direction": "input"}
+{"text": "Can you explain Norse mythology in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with Norse mythology?", "direction": "input"}
+{"text": "Could you summarize Norse mythology in three bullet points?", "direction": "input"}
+{"text": "I'm new to Norse mythology. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of Norse mythology?", "direction": "input"}
+{"text": "How does Norse mythology actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of Norse mythology for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about Norse mythology?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on Norse mythology?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with Norse mythology?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving Norse mythology?", "direction": "input"}
+{"text": "Follow-up: how is Norse mythology used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about Norse mythology?", "direction": "input"}
+{"text": "Can you explain a REST API in Flask in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a REST API in Flask?", "direction": "input"}
+{"text": "Could you summarize a REST API in Flask in three bullet points?", "direction": "input"}
+{"text": "I'm new to a REST API in Flask. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a REST API in Flask?", "direction": "input"}
+{"text": "How does a REST API in Flask actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a REST API in Flask for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a REST API in Flask?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a REST API in Flask?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a REST API in Flask?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a REST API in Flask?", "direction": "input"}
+{"text": "Follow-up: how is a REST API in Flask used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a REST API in Flask?", "direction": "input"}
+{"text": "Can you explain the Treaty of Versailles in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the Treaty of Versailles?", "direction": "input"}
+{"text": "Could you summarize the Treaty of Versailles in three bullet points?", "direction": "input"}
+{"text": "I'm new to the Treaty of Versailles. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the Treaty of Versailles?", "direction": "input"}
+{"text": "How does the Treaty of Versailles actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the Treaty of Versailles for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the Treaty of Versailles?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the Treaty of Versailles?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the Treaty of Versailles?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the Treaty of Versailles?", "direction": "input"}
+{"text": "Follow-up: how is the Treaty of Versailles used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the Treaty of Versailles?", "direction": "input"}
+{"text": "Can you explain machine learning gradient descent in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with machine learning gradient descent?", "direction": "input"}
+{"text": "Could you summarize machine learning gradient descent in three bullet points?", "direction": "input"}
+{"text": "I'm new to machine learning gradient descent. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of machine learning gradient descent?", "direction": "input"}
+{"text": "How does machine learning gradient descent actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of machine learning gradient descent for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about machine learning gradient descent?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on machine learning gradient descent?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with machine learning gradient descent?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving machine learning gradient descent?", "direction": "input"}
+{"text": "Follow-up: how is machine learning gradient descent used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about machine learning gradient descent?", "direction": "input"}
+{"text": "Can you explain composting at home in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with composting at home?", "direction": "input"}
+{"text": "Could you summarize composting at home in three bullet points?", "direction": "input"}
+{"text": "I'm new to composting at home. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of composting at home?", "direction": "input"}
+{"text": "How does composting at home actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of composting at home for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about composting at home?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on composting at home?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with composting at home?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving composting at home?", "direction": "input"}
+{"text": "Follow-up: how is composting at home used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about composting at home?", "direction": "input"}
+{"text": "Can you explain tide pools in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with tide pools?", "direction": "input"}
+{"text": "Could you summarize tide pools in three bullet points?", "direction": "input"}
+{"text": "I'm new to tide pools. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of tide pools?", "direction": "input"}
+{"text": "How does tide pools actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of tide pools for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about tide pools?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on tide pools?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with tide pools?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving tide pools?", "direction": "input"}
+{"text": "Follow-up: how is tide pools used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about tide pools?", "direction": "input"}
+{"text": "Can you explain container ships in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with container ships?", "direction": "input"}
+{"text": "Could you summarize container ships in three bullet points?", "direction": "input"}
+{"text": "I'm new to container ships. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of container ships?", "direction": "input"}
+{"text": "How does container ships actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of container ships for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about container ships?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on container ships?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with container ships?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving container ships?", "direction": "input"}
+{"text": "Follow-up: how is container ships used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about container ships?", "direction": "input"}
+{"text": "Can you explain the Fibonacci sequence in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the Fibonacci sequence?", "direction": "input"}
+{"text": "Could you summarize the Fibonacci sequence in three bullet points?", "direction": "input"}
+{"text": "I'm new to the Fibonacci sequence. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the Fibonacci sequence?", "direction": "input"}
+{"text": "How does the Fibonacci sequence actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the Fibonacci sequence for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the Fibonacci sequence?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the Fibonacci sequence?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the Fibonacci sequence?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the Fibonacci sequence?", "direction": "input"}
+{"text": "Follow-up: how is the Fibonacci sequence used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the Fibonacci sequence?", "direction": "input"}
+{"text": "Can you explain espresso extraction in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with espresso extraction?", "direction": "input"}
+{"text": "Could you summarize espresso extraction in three bullet points?", "direction": "input"}
+{"text": "I'm new to espresso extraction. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of espresso extraction?", "direction": "input"}
+{"text": "How does espresso extraction actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of espresso extraction for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about espresso extraction?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on espresso extraction?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with espresso extraction?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving espresso extraction?", "direction": "input"}
+{"text": "Follow-up: how is espresso extraction used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about espresso extraction?", "direction": "input"}
+{"text": "Can you explain plate tectonics in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with plate tectonics?", "direction": "input"}
+{"text": "Could you summarize plate tectonics in three bullet points?", "direction": "input"}
+{"text": "I'm new to plate tectonics. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of plate tectonics?", "direction": "input"}
+{"text": "How does plate tectonics actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of plate tectonics for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about plate tectonics?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on plate tectonics?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with plate tectonics?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving plate tectonics?", "direction": "input"}
+{"text": "Follow-up: how is plate tectonics used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about plate tectonics?", "direction": "input"}
+{"text": "Can you explain a GraphQL schema in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a GraphQL schema?", "direction": "input"}
+{"text": "Could you summarize a GraphQL schema in three bullet points?", "direction": "input"}
+{"text": "I'm new to a GraphQL schema. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a GraphQL schema?", "direction": "input"}
+{"text": "How does a GraphQL schema actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a GraphQL schema for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a GraphQL schema?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a GraphQL schema?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a GraphQL schema?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a GraphQL schema?", "direction": "input"}
+{"text": "Follow-up: how is a GraphQL schema used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a GraphQL schema?", "direction": "input"}
+{"text": "Can you explain the Baroque period in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the Baroque period?", "direction": "input"}
+{"text": "Could you summarize the Baroque period in three bullet points?", "direction": "input"}
+{"text": "I'm new to the Baroque period. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the Baroque period?", "direction": "input"}
+{"text": "How does the Baroque period actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the Baroque period for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the Baroque period?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the Baroque period?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the Baroque period?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the Baroque period?", "direction": "input"}
+{"text": "Follow-up: how is the Baroque period used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the Baroque period?", "direction": "input"}
+{"text": "Can you explain vaccine development in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with vaccine development?", "direction": "input"}
+{"text": "Could you summarize vaccine development in three bullet points?", "direction": "input"}
+{"text": "I'm new to vaccine development. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of vaccine development?", "direction": "input"}
+{"text": "How does vaccine development actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of vaccine development for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about vaccine development?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on vaccine development?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with vaccine development?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving vaccine development?", "direction": "input"}
+{"text": "Follow-up: how is vaccine development used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about vaccine development?", "direction": "input"}
+{"text": "Can you explain a bloom filter in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a bloom filter?", "direction": "input"}
+{"text": "Could you summarize a bloom filter in three bullet points?", "direction": "input"}
+{"text": "I'm new to a bloom filter. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a bloom filter?", "direction": "input"}
+{"text": "How does a bloom filter actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a bloom filter for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a bloom filter?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a bloom filter?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a bloom filter?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a bloom filter?", "direction": "input"}
+{"text": "Follow-up: how is a bloom filter used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a bloom filter?", "direction": "input"}
+{"text": "Can you explain monetary policy in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with monetary policy?", "direction": "input"}
+{"text": "Could you summarize monetary policy in three bullet points?", "direction": "input"}
+{"text": "I'm new to monetary policy. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of monetary policy?", "direction": "input"}
+{"text": "How does monetary policy actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of monetary policy for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about monetary policy?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on monetary policy?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with monetary policy?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving monetary policy?", "direction": "input"}
+{"text": "Follow-up: how is monetary policy used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about monetary policy?", "direction": "input"}
+{"text": "Can you explain coral reefs in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with coral reefs?", "direction": "input"}
+{"text": "Could you summarize coral reefs in three bullet points?", "direction": "input"}
+{"text": "I'm new to coral reefs. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of coral reefs?", "direction": "input"}
+{"text": "How does coral reefs actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of coral reefs for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about coral reefs?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on coral reefs?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with coral reefs?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving coral reefs?", "direction": "input"}
+{"text": "Follow-up: how is coral reefs used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about coral reefs?", "direction": "input"}
+{"text": "Can you explain the printing press in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the printing press?", "direction": "input"}
+{"text": "Could you summarize the printing press in three bullet points?", "direction": "input"}
+{"text": "I'm new to the printing press. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the printing press?", "direction": "input"}
+{"text": "How does the printing press actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the printing press for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the printing press?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the printing press?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the printing press?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the printing press?", "direction": "input"}
+{"text": "Follow-up: how is the printing press used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the printing press?", "direction": "input"}
+{"text": "Can you explain a load balancer in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a load balancer?", "direction": "input"}
+{"text": "Could you summarize a load balancer in three bullet points?", "direction": "input"}
+{"text": "I'm new to a load balancer. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a load balancer?", "direction": "input"}
+{"text": "How does a load balancer actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a load balancer for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a load balancer?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a load balancer?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a load balancer?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a load balancer?", "direction": "input"}
+{"text": "Follow-up: how is a load balancer used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a load balancer?", "direction": "input"}
+{"text": "Can you explain beekeeping in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with beekeeping?", "direction": "input"}
+{"text": "Could you summarize beekeeping in three bullet points?", "direction": "input"}
+{"text": "I'm new to beekeeping. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of beekeeping?", "direction": "input"}
+{"text": "How does beekeeping actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of beekeeping for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about beekeeping?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on beekeeping?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with beekeeping?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving beekeeping?", "direction": "input"}
+{"text": "Follow-up: how is beekeeping used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about beekeeping?", "direction": "input"}
+{"text": "Can you explain the electoral college in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the electoral college?", "direction": "input"}
+{"text": "Could you summarize the electoral college in three bullet points?", "direction": "input"}
+{"text": "I'm new to the electoral college. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the electoral college?", "direction": "input"}
+{"text": "How does the electoral college actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the electoral college for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the electoral college?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the electoral college?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the electoral college?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the electoral college?", "direction": "input"}
+{"text": "Follow-up: how is the electoral college used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the electoral college?", "direction": "input"}
+{"text": "Can you explain regular expressions in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with regular expressions?", "direction": "input"}
+{"text": "Could you summarize regular expressions in three bullet points?", "direction": "input"}
+{"text": "I'm new to regular expressions. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of regular expressions?", "direction": "input"}
+{"text": "How does regular expressions actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of regular expressions for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about regular expressions?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on regular expressions?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with regular expressions?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving regular expressions?", "direction": "input"}
+{"text": "Follow-up: how is regular expressions used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about regular expressions?", "direction": "input"}
+{"text": "Can you explain the carbon cycle in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the carbon cycle?", "direction": "input"}
+{"text": "Could you summarize the carbon cycle in three bullet points?", "direction": "input"}
+{"text": "I'm new to the carbon cycle. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the carbon cycle?", "direction": "input"}
+{"text": "How does the carbon cycle actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the carbon cycle for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the carbon cycle?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the carbon cycle?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the carbon cycle?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the carbon cycle?", "direction": "input"}
+{"text": "Follow-up: how is the carbon cycle used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the carbon cycle?", "direction": "input"}
+{"text": "Can you explain a message queue in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with a message queue?", "direction": "input"}
+{"text": "Could you summarize a message queue in three bullet points?", "direction": "input"}
+{"text": "I'm new to a message queue. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of a message queue?", "direction": "input"}
+{"text": "How does a message queue actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of a message queue for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about a message queue?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on a message queue?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with a message queue?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving a message queue?", "direction": "input"}
+{"text": "Follow-up: how is a message queue used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about a message queue?", "direction": "input"}
+{"text": "Can you explain Renaissance art in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with Renaissance art?", "direction": "input"}
+{"text": "Could you summarize Renaissance art in three bullet points?", "direction": "input"}
+{"text": "I'm new to Renaissance art. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of Renaissance art?", "direction": "input"}
+{"text": "How does Renaissance art actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of Renaissance art for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about Renaissance art?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on Renaissance art?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with Renaissance art?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving Renaissance art?", "direction": "input"}
+{"text": "Follow-up: how is Renaissance art used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about Renaissance art?", "direction": "input"}
+{"text": "Can you explain sleep hygiene in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with sleep hygiene?", "direction": "input"}
+{"text": "Could you summarize sleep hygiene in three bullet points?", "direction": "input"}
+{"text": "I'm new to sleep hygiene. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of sleep hygiene?", "direction": "input"}
+{"text": "How does sleep hygiene actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of sleep hygiene for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about sleep hygiene?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on sleep hygiene?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with sleep hygiene?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving sleep hygiene?", "direction": "input"}
+{"text": "Follow-up: how is sleep hygiene used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about sleep hygiene?", "direction": "input"}
+{"text": "Can you explain the TCP handshake in simple terms?", "direction": "input"}
+{"text": "What's a good way to get started with the TCP handshake?", "direction": "input"}
+{"text": "Could you summarize the TCP handshake in three bullet points?", "direction": "input"}
+{"text": "I'm new to the TCP handshake. Where should I begin?", "direction": "input"}
+{"text": "What are the pros and cons of the TCP handshake?", "direction": "input"}
+{"text": "How does the TCP handshake actually work under the hood?", "direction": "input"}
+{"text": "Give me a short overview of the TCP handshake for a beginner.", "direction": "input"}
+{"text": "What should I keep in mind when learning about the TCP handshake?", "direction": "input"}
+{"text": "Thanks! Could you go a bit deeper on the TCP handshake?", "direction": "input"}
+{"text": "That helps. What's one common mistake people make with the TCP handshake?", "direction": "input"}
+{"text": "Nice. Can you give a concrete example involving the TCP handshake?", "direction": "input"}
+{"text": "Follow-up: how is the TCP handshake used in the real world?", "direction": "input"}
+{"text": "Interesting \u2014 what should I read next about the TCP handshake?", "direction": "input"}
+{"text": "Can you help me write a Python function to sort a list of dictionaries by a key?", "direction": "input"}
+{"text": "Why does my loop print the wrong index? Here is the code:\nfor i in range(len(items)): print(i, items)", "direction": "input"}
+{"text": "Refactor this to be more readable:\ndef f(x):\n  return x*2+1 if x>0 else -x", "direction": "input"}
+{"text": "How do I read a CSV file into a pandas DataFrame and drop empty rows?", "direction": "input"}
+{"text": "Write a SQL query to list customers who ordered more than twice last month.", "direction": "input"}
+{"text": "What's the difference between a list and a tuple in Python?", "direction": "input"}
+{"text": "How do I handle a 404 in my Express route cleanly?", "direction": "input"}
+{"text": "Explain async/await with a small JavaScript example.", "direction": "input"}
+{"text": "My unit test fails with 'AssertionError: 3 != 4'. How do I debug it?", "direction": "input"}
+{"text": "How can I memoize an expensive function call in Python?", "direction": "input"}
+{"text": "My order hasn't arrived yet, can you check the status?", "direction": "input"}
+{"text": "I'd like to change the email address on my account.", "direction": "input"}
+{"text": "How do I reset my password?", "direction": "input"}
+{"text": "Is there a student discount available?", "direction": "input"}
+{"text": "Can I return an item I bought last week?", "direction": "input"}
+{"text": "What are your customer support hours?", "direction": "input"}
+{"text": "The app crashes when I open the settings page.", "direction": "input"}
+{"text": "How do I export my data as a spreadsheet?", "direction": "input"}
+{"text": "Translate 'good morning, how are you?' into Spanish.", "direction": "input"}
+{"text": "How do you say 'thank you very much' in Japanese?", "direction": "input"}
+{"text": "What's the German word for 'serendipity'?", "direction": "input"}
+{"text": "Please translate this sentence into French: the cat sat on the mat.", "direction": "input"}
+{"text": "Good morning! What's a fun fact to start the day?", "direction": "input"}
+{"text": "I had a great weekend hiking. Any trail recommendations near Seattle?", "direction": "input"}
+{"text": "Recommend a cozy mystery novel, please.", "direction": "input"}
+{"text": "What's a quick healthy lunch I can make in 10 minutes?", "direction": "input"}
+{"text": "Tell me a light-hearted joke about programmers.", "direction": "input"}
+{"text": "What movies are worth watching this weekend?", "direction": "input"}
+{"text": "What is prompt injection and why is it a risk for chatbots?", "direction": "input"}
+{"text": "Can you explain the OWASP Top 10 for LLM applications at a high level?", "direction": "input"}
+{"text": "What's the safest way to rotate an API key without downtime?", "direction": "input"}
+{"text": "How do guardrails for AI assistants generally work?", "direction": "input"}
+{"text": "Explain the difference between authentication and authorization.", "direction": "input"}
+{"text": "What are best practices for storing secrets in a backend service?", "direction": "input"}
+{"text": "How should I handle PII in logs to stay compliant?", "direction": "input"}
+{"text": "What does 'defense in depth' mean in security?", "direction": "input"}
+{"text": "[INFO] 2026-01-02 09:15:03 request completed in 42ms status=200 path=/api/items", "direction": "output"}
+{"text": "WARNING: disk usage at 78% on /var; consider cleanup of old logs", "direction": "output"}
+{"text": "Traceback (most recent call last):\n  File 'app.py', line 20, in main\n    run()\nValueError: bad input", "direction": "output"}
+{"text": "GET /health 200 1.2ms\nGET /metrics 200 0.8ms\nPOST /orders 201 15ms", "direction": "output"}
+{"text": "npm WARN deprecated package@1.2.3: please upgrade to 2.x", "direction": "output"}
+{"text": "Hi there \u2014 my order hasn't arrived yet, can you check the status?", "direction": "input"}
+{"text": "My order hasn't arrived yet, can you check the status? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 i'd like to change the email address on my account.", "direction": "input"}
+{"text": "I'd like to change the email address on my account. Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 how do i reset my password?", "direction": "input"}
+{"text": "How do I reset my password? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 is there a student discount available?", "direction": "input"}
+{"text": "Is there a student discount available? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 can i return an item i bought last week?", "direction": "input"}
+{"text": "Can I return an item I bought last week? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 what are your customer support hours?", "direction": "input"}
+{"text": "What are your customer support hours? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 the app crashes when i open the settings page.", "direction": "input"}
+{"text": "The app crashes when I open the settings page. Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 how do i export my data as a spreadsheet?", "direction": "input"}
+{"text": "How do I export my data as a spreadsheet? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 good morning! what's a fun fact to start the day?", "direction": "input"}
+{"text": "Good morning! What's a fun fact to start the day? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 i had a great weekend hiking. any trail recommendations near seattle?", "direction": "input"}
+{"text": "I had a great weekend hiking. Any trail recommendations near Seattle? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 recommend a cozy mystery novel, please.", "direction": "input"}
+{"text": "Recommend a cozy mystery novel, please. Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 what's a quick healthy lunch i can make in 10 minutes?", "direction": "input"}
+{"text": "What's a quick healthy lunch I can make in 10 minutes? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 tell me a light-hearted joke about programmers.", "direction": "input"}
+{"text": "Tell me a light-hearted joke about programmers. Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 what movies are worth watching this weekend?", "direction": "input"}
+{"text": "What movies are worth watching this weekend? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 translate 'good morning, how are you?' into spanish.", "direction": "input"}
+{"text": "Translate 'good morning, how are you?' into Spanish. Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 how do you say 'thank you very much' in japanese?", "direction": "input"}
+{"text": "How do you say 'thank you very much' in Japanese? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 what's the german word for 'serendipity'?", "direction": "input"}
+{"text": "What's the German word for 'serendipity'? Thanks in advance!", "direction": "input"}
+{"text": "Hi there \u2014 please translate this sentence into french: the cat sat on the mat.", "direction": "input"}
+{"text": "Please translate this sentence into French: the cat sat on the mat. Thanks in advance!", "direction": "input"}
