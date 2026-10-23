@@ -1,5 +1,5 @@
-name: 'pink-crow'
-description: 'Deterministic AI-security gate: score prompts/agent fixtures for OWASP LLM risks (injection, resource exhaustion, egress) in CI, emit SARIF, and fail on threshold.'
+name: 'pink-crow AI Security Gate'
+description: 'Deterministic OWASP LLM-risk gate for CI: scores prompts & agent fixtures for injection/egress/exhaustion, emits SARIF.'
 author: 'dibakshya01'
 
 branding:
